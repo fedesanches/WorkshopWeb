@@ -443,16 +443,16 @@ section {
 	max-width: 750px;
 	margin: 0 auto 40px;
 }
-/* =============== SECTION STORY ABOUT US =============== */
-#nino-story .content {
+/* =============== SECTION EDICIONES ANTERIORES =============== */
+#nino-ea .content {
 	font-weight: 700;
 	font-size: 14px;
 }
-#nino-story .content .nino-icon {
+#nino-ea .content .nino-icon {
 	display: block;
 	font-size: 30px;
 }
-/* =============== SECTION COUNTING =============== */
+/* =============== SECTION CONTADORES =============== */
 #nino-counting {
 	padding: 0;
 	background: #95e1d3;
@@ -476,98 +476,42 @@ section {
 	line-height: 100%;
 	margin-bottom: 10px;
 }
-/* =============== SECTION SERVICES =============== */
-#nino-services .nino-icon {
+/* =============== SECTION VALORES =============== */
+#nino-valores .nino-icon {
 	font-size: 30px;
 	margin-right: 20px;
 	color: #95e1d3;
 }
-#nino-services .item:not(:nth-last-child(-n+3)) {
+#nino-valores .item:not(:nth-last-child(-n+3)) {
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 50px;
 	padding-bottom: 40px;
 }
-#nino-services .nino-serviceTitle {
+#nino-valores .nino-valoresTitle {
 	font-weight: 500;
 	font-size: 14px;
 }
-/* =============== SECTION UNIQUE DESIGN =============== */
-#nino-uniqueDesign {
+/* =============== SECTION APP =============== */
+#nino-appws {
 	padding-bottom: 0;
 	margin-bottom: 30px;
-	background: #e0e0e0 url(../images/unique-design/bg-unique-design.jpg) no-repeat center center / cover;
+	background: #e0e0e0 url(../images/appws/bg-unique-design.jpg) no-repeat center center / cover;
 }
-#nino-uniqueDesign .nino-devices {
+#nino-appws .nino-devices {
 	position: relative;
 	text-align: center;
 }
-#nino-uniqueDesign .nino-devices .tablet {
+#nino-appws .nino-devices .tablet {
 	width: 380px;
 }
-#nino-uniqueDesign .nino-devices .mobile {
+#nino-appws .nino-devices .mobile {
 	position: absolute;
 	bottom: -60px;
 	left: 50%;
 	margin-left: 140px;
 	width: 170px;
 }
-/* =============== SECTION WHAT WE DO =============== */
-#nino-whatWeDo .panel-group {
-	margin: 0;
-}
-#nino-whatWeDo .panel-group .panel+.panel {
-    margin-top: 8px;
-}
-#nino-whatWeDo .panel-default {
-	border-color: #e5e5e5;
-	border-radius: 0;
-}
-#nino-whatWeDo .panel-default > .panel-heading {
-	background: #fff;
-	padding: 0;
-}
-#nino-whatWeDo .panel-title {
-	font-size: 14px;
-}
-#nino-whatWeDo .panel-title a {
-	display: block;
-	padding: 20px 15px 20px 50px;
-	position: relative;
-	text-decoration: none;
-}
-#nino-whatWeDo .panel-title .nino-icon {
-	position: absolute;
-	left: 10px;
-	top: 13px;
-	font-size: 30px;
-	color: #95e1d3;
-}
-#nino-whatWeDo .panel-title .nino-icon.arrow {
-	left: auto;
-	right: 10px;
-	color: #ccc;
-}
-#nino-whatWeDo .panel-title .collapsed .nino-icon.arrow {
-	-webkit-transform: rotate(180deg);
-	   -moz-transform: rotate(180deg);
-		 -o-transform: rotate(180deg);
-		-ms-transform: rotate(180deg);
-			transform: rotate(180deg);
-}
-#nino-whatWeDo .panel-body {
-	font-style: italic;
-	height: 185px;
-	font-weight: 300;
-}
-#nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
-#nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, 
-#nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
-	background: #95e1d3;
-}
-#nino-whatWeDo .mCSB_scrollTools .mCSB_draggerRail {
-	background: #f5f5f5;
-}
-/* =============== SECTION TESTIMONIAL =============== */
+/* =============== SECTION TESTIMONIOS =============== */
 .nino-testimonial {
 	background: #f8f8f8;
 	padding: 60px 0;
@@ -584,10 +528,6 @@ section {
 }
 .nino-testimonialSlider {
 	margin: 0 80px;
-}
-.nino-testimonialSlider .nino-avatar {
-	width: 190px;
-	margin-right: 35px;
 }
 .nino-testimonialSlider .nino-symbol {
 	margin: 0 35px 0 5px;
@@ -624,22 +564,7 @@ section {
 		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
 }
-/* =============== SECTION BRAND =============== */
-#nino-brand {
-	padding: 50px 0;
-	background: #f8f8f8;
-	text-align: center;
-}
-#nino-brand a {
-	display: block;
-}
-#nino-brand a:hover {
-	-webkit-transform: scale(1.1,1.1);
-	   -moz-transform: scale(1.1,1.1);
-		 -o-transform: scale(1.1,1.1);
-		-ms-transform: scale(1.1,1.1);
-			transform: scale(1.1,1.1);
-}
+
 /* =============== SECTION PORTFOLIO =============== */
 #nino-portfolio {
 	padding-bottom: 0;
@@ -722,42 +647,13 @@ section {
 #nino-ourTeam .regency {
 	font-style: italic;
 }
-/* =============== SECTION HAPPY CLIENT =============== */
-#nino-happyClient {
-	background: url(../images/happy-client/bg-happy-client.jpg) no-repeat center center / cover;
-}
-#nino-happyClient .item {
-	margin-bottom: 30px;
-}
-#nino-happyClient .nino-avatar {
-	width: 80px;
-	margin-right: 30px;
-}
-#nino-happyClient .name {
-	font-size: 14px;
-}
-#nino-happyClient .regency {
-	position: relative;
-	padding-bottom: 12px;
-	display: inline-block;
-	font-style: italic;
-	margin-bottom: 12px;
-}
-#nino-happyClient .regency:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 50px;
-	height: 2px;
-	background: #f38181;
-}
-/* =============== SECTION LATEST BLOG =============== */
-#nino-latestBlog article .articleThumb {
+
+/* =============== SECTION ULTIMAS NOTICIAS =============== */
+#nino-ultimasnoticias article .articleThumb {
 	position: relative;
 	margin-bottom: 20px;
 }
-#nino-latestBlog article .date {
+#nino-ultimasnoticias article .date {
 	position: absolute;
 	background: #95e1d3;
 	left: -10px;
@@ -766,37 +662,37 @@ section {
 	color: #fff;
 	text-align: center;
 }
-#nino-latestBlog article .date .number {
+#nino-ultimasnoticias article .date .number {
 	display: block;
 	font-size: 28px;
 	line-height: 100%;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 }
-#nino-latestBlog article .date .text {
+#nino-ultimasnoticias article .date .text {
 	display: block;
 	font-weight: 300;
 	font-style: italic;
 }
-#nino-latestBlog article .articleTitle {
+#nino-ultimasnoticias article .articleTitle {
 	font-size: 14px;
 }
-#nino-latestBlog article .articleMeta {
+#nino-ultimasnoticias article .articleMeta {
 	border-top: 1px solid #e5e5e5;
 	margin-top: 15px;
 	padding-top: 15px;
 }
-#nino-latestBlog article .articleMeta a {
+#nino-ultimasnoticias article .articleMeta a {
 	color: #999;
 	display: inline-block;
 	margin-right: 15px;
 	font-style: italic;
 	font-weight: 300;
 }
-#nino-latestBlog article .articleMeta a:hover {
+#nino-ultimasnoticias article .articleMeta a:hover {
 	color: #000;
 }
-#nino-latestBlog article .articleMeta .nino-icon {
+#nino-ultimasnoticias article .articleMeta .nino-icon {
 	color: #95e1d3;
 	font-size: 17px;
 	position: relative;
@@ -840,153 +736,11 @@ section {
 footer {
 	background: #f8f8f8;
 }
-footer .nino-colHeading {
-	margin: 0 0 25px;
-	font-size: 14px;
-}
-footer .colInfo {
-	margin-bottom: 30px;
-}
-/* ----------- COL 1 ----------- */
-footer .footerLogo a {
-	color: #ccc;
-	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	display: inline-block;
-	margin-bottom: 20px;
-	line-height: 100%;
-}
-footer .nino-followUs {
-	margin: 25px 0;
-}
-footer .nino-followUs .totalFollow {
-	color: #333;
-	font-weight: 500;
-	font-family: 'Montserrat', sans-serif;
-	border-bottom: 1px solid #e5e5e5;
-	padding-bottom: 5px;
-	margin-bottom: 10px;
-}
-footer .nino-followUs .totalFollow span {
-	font-size: 18px;
-	font-weight: 700;
-}
-footer .nino-followUs .socialNetwork .text {
-	font-style: italic;
-	font-weight: 300;
-	display: inline-block;
-	margin-right: 10px;
-}
-footer .nino-followUs .socialNetwork .nino-icon {
-	display: inline-block;
-	margin: 0 3px;
-	font-size: 18px;
-	color: #95e1d3;
-}
-footer .nino-subscribeForm .input-group input,
-footer .nino-subscribeForm .input-group .btn {
-	border-radius: 0;
-}
-footer .nino-subscribeForm .input-group input {
-	border-color: #e7e7e7;
-	box-shadow: none;
-	font-style: italic;
-	font-size: 15px;
-}
-footer .nino-subscribeForm .input-group .btn {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	background: #95e1d3;
-	border: none;
-}
-/* ----------- COL 2 ----------- */
-footer .listArticles > li {
-	margin-bottom: 20px;
-}
-footer .listArticles > li:last-child {
-	margin-bottom: 0;
-}
-footer .listArticles .articleThumb {
-	width: 120px;
-	margin-right: 15px;
-}
-footer .listArticles .articleTitle {
-	font-size: 12px;
-	margin: 0 0 5px;
-	line-height: 1.4;
-}
-footer .listArticles .date {
-	font-style: italic;
-}
-/* ----------- COL 3 ----------- */
-footer .instagramImages a {
-	float: left;
-	width: 82px;
-	margin: 1px;
-}
-footer .morePhoto {
-	color: #999;
-	font-style: italic;
-	margin-top: 10px;
-	display: inline-block;
-}
 /* ----------- COPYRIGHT ----------- */
 footer .nino-copyright {
 	text-align: center;
 	border-top: 1px solid #e5e5e5;
 	padding: 20px 0;
-}
-/* =============== SEARCH FORM =============== */
-#nino-searchForm {
-	position: fixed;
-	left: 0;
-	top: -100%;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,.9);
-	padding: 20px;
-	z-index: 10;
-	opacity: 1;
-	-webkit-transition: all .3s ease-in-out;
-	   -moz-transition: all .3s ease-in-out;
-		 -o-transition: all .3s ease-in-out;
-		-ms-transition: all .3s ease-in-out;
-			transition: all .3s ease-in-out;
-}
-#nino-searchForm.open {
-	top: 0;
-	opacity: 1;
-}
-#nino-searchForm .nino-searchInput {
-    position: relative;
-    top: 50%;
-    height: 100px;
-    box-shadow: none;
-    font-size: 70px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #333;
-    font-weight: 700;
-    padding: 20px 0;
-    color: #fff;
-    -webkit-transform: translateY(-50%);
-	   -moz-transform: translateY(-50%);
-		 -o-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-			transform: translateY(-50%);
-}
-#nino-searchForm .nino-close {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	font-size: 60px;
-	cursor: pointer;
-}
-#nino-searchForm .nino-close:hover {
-	color: #fff;
 }
 /* =============== GO TO TOP =============== */
 #nino-scrollToTop {
@@ -1024,10 +778,6 @@ div.pp_default .pp_social {
 /* ============================================================ RESPONSIVE ============================================================ */
 @media (max-width: 1200px) {
 
-	/* =============== WHAT WE DO =============== */
-	#nino-whatWeDo .panel-body {
-		height: 118px;
-	}
 	/* =============== FOOTER =============== */
 	footer .nino-followUs {
 		margin: 15px 0;
@@ -1041,7 +791,7 @@ div.pp_default .pp_social {
 	section {
 		padding: 45px 0;
 	}	
-	/* =============== SECTION TESTIMONIAL =============== */
+	/* =============== SECTION TESTIMONIOS =============== */
 	.nino-testimonial {
 		padding: 30px 0;
 	}
@@ -1061,24 +811,20 @@ div.pp_default .pp_social {
 	#nino-counting .number {
 		font-size: 50px;
 	}
-	/* =============== SECTION SERVICES =============== */
-	#nino-services .item:not(:nth-last-child(-n+2)) {
+	/* =============== SECTION VALORES =============== */
+	#nino-valores .item:not(:nth-last-child(-n+2)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 30px;
     	padding-bottom: 20px;
 	}
 	/* =============== SECTION UNIQUE DESIGN =============== */
-	#nino-uniqueDesign .nino-devices .tablet {
+	#nino-appws .nino-devices .tablet {
 		width: 250px;
 	}
-	#nino-uniqueDesign .nino-devices .mobile {
+	#nino-appws .nino-devices .mobile {
 		bottom: -38px;
 		margin-left: 88px;
 		width: 110px;
-	}	
-	/* =============== SECTION WHAT WE DO =============== */
-	#nino-whatWeDo .panel-group {
-		margin-top: 20px;
 	}
 	/* =============== SECTION OUR TEAM =============== */
 	#nino-ourTeam .content .nino-icon {
@@ -1088,21 +834,17 @@ div.pp_default .pp_social {
 	#nino-ourTeam .info {
 		margin-top: 25px;
 	}
-	/* =============== SECTION BRAND =============== */
-	#nino-brand {
-		padding: 20px 0;
-	}
-	/* =============== SECTION LATEST BLOG =============== */
-	#nino-latestBlog article .articleTitle {
+	/* =============== SECTION ULTIMAS NOTICIAS =============== */
+	#nino-ultimasnoticias article .articleTitle {
 		font-size: 11px;
 	}
-	#nino-latestBlog article .date {
+	#nino-ultimasnoticias article .date {
 		padding: 8px 12px;
 	}
-	#nino-latestBlog article .date .number {
+	#nino-ultimasnoticias article .date .number {
 		font-size: 18px;
 	}
-	#nino-latestBlog article .date .text {
+	#nino-ultimasnoticias article .date .text {
 		font-size: 11px;
 	}
 
@@ -1130,8 +872,8 @@ div.pp_default .pp_social {
 	#nino-slider .nino-sectionHeading .nino-subHeading {
 	    font-size: 35px;
 	}
-	/* =============== SECTION UNIQUE DESIGN =============== */
-	#nino-uniqueDesign .nino-devices .mobile {
+	/* =============== SECTION APP =============== */
+	#nino-appws .nino-devices .mobile {
 		margin-left: 65px;
 	}
 	/* =============== SECTION OUR TEAM =============== */
@@ -1142,11 +884,11 @@ div.pp_default .pp_social {
 	#nino-portfolio .nino-portfolioItems li {
 		width: 50%;
 	}
-	/* =============== SECTION LATEST BLOG =============== */
-	#nino-latestBlog {
+	/* =============== SECTION ULTIMAS NOTICIAS =============== */
+	#nino-ultimasnoticias {
 		text-align: center;
 	}
-	#nino-latestBlog article {
+	#nino-ultimasnoticias article {
 		display: inline-block;
 		max-width: 380px;
 		margin-bottom: 30px;
@@ -1195,8 +937,8 @@ div.pp_default .pp_social {
 		margin: 0 0 0 15px;
 		padding: 15px 0 5px;
 	}
-	/* =============== SECTION SERVICES =============== */
-	#nino-services .item:not(:nth-last-child(-n+1)) {
+	/* =============== SECTION VALORES =============== */
+	#nino-valores .item:not(:nth-last-child(-n+1)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 20px;
 		padding-bottom: 10px;
@@ -1241,8 +983,8 @@ div.pp_default .pp_social {
 	#nino-counting .text {
 		font-size: 9px;
 	}
-	/* =============== SECTION UNIQUE DESIGN =============== */
-	#nino-uniqueDesign .nino-devices .mobile {
+	/* =============== SECTION APP =============== */
+	#nino-appws .nino-devices .mobile {
 		margin-left: 65px;
 	}
 	/* =============== SECTION TESTIMONIAL =============== */
@@ -1263,24 +1005,10 @@ div.pp_default .pp_social {
 		width: 100px;
 		margin-right: 15px;
 	}
-	/* =============== SECTION UNIQUE DESIGN =============== */
-	#nino-uniqueDesign .nino-devices .mobile {
+	/* =============== SECTION APP =============== */
+	#nino-appws .nino-devices .mobile {
 		margin-left: 50px;
 		width: 90px;
-	}
-	/* =============== SECTION HAPPY CLIENT =============== */
-	#nino-happyClient .nino-avatar {
-	    width: 50px;
-	    margin-right: 15px;
-	}
-	/* =============== SEARCH FORM =============== */
-	#nino-searchForm .nino-searchInput {
-		height: 60px;
-		font-size: 35px;
-
-	}
-	#nino-searchForm .nino-close {
-		font-size: 40px;
 	}
 	/* =============== FOOTER =============== */
 	footer {

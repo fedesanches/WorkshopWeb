@@ -1,18 +1,18 @@
 jQuery(function($) {
 
 	/* =============== SHOW / HIDE FORM SEARCH =============== */
-	$("header .nino-search, #nino-searchForm .nino-close").click(function(){
-		$("#nino-searchForm").toggleClass("open");
+	$("header .workshop-search, #workshop-searchForm .workshop-close").click(function(){
+		$("#workshop-searchForm").toggleClass("open");
 	});
 
 	/* =============== SHOW / HIDE GOOGLE MAP =============== */
-	$("#nino-map .nino-sectionHeading").click(function(){
-		$("#nino-map").toggleClass("showMap");
+	$("#workshop-map .workshop-sectionHeading").click(function(){
+		$("#workshop-map").toggleClass("showMap");
 		$(this).find(".text").toggle();
 	});
 
 	/* =============== TESTIMONIAL SLIDER =============== */
-	$('.nino-testimonialSlider').unslider({
+	$('.workshop-testimonialSlider').unslider({
 		nav: false,
 		arrows: {
 			//  Unslider default behaviour
@@ -22,24 +22,24 @@ jQuery(function($) {
 	});
 
 	/* =============== CUSTOM SCROLLBAR STYLE =============== */
-	$("#nino-whatWeDo .panel-body").mCustomScrollbar({
+	$("#workshop-whatWeDo .panel-body").mCustomScrollbar({
 		theme:"default"
 	});
 
 	/* =============== MAKE MAIN MENU STICKED ON TOP WHEN SCROLL =============== */
 	$(window).scroll(function () {
-		if ($(this).scrollTop() == $('#nino-header').height() || $(this).scrollTop() > $('#nino-header').height()) {
-			$('body').addClass("nino-fixed-nav");
-			$('body').css('padding-top', $('#nino-navbar').height() + 'px');
+		if ($(this).scrollTop() == $('#workshop-header').height() || $(this).scrollTop() > $('#workshop-header').height()) {
+			$('body').addClass("workshop-fixed-nav");
+			$('body').css('padding-top', $('#workshop-navbar').height() + 'px');
 		} else {
-			$('body').removeClass("nino-fixed-nav");
+			$('body').removeClass("workshop-fixed-nav");
 			$('body').css('padding-top', 0);
 		}
 	});
 	
 	/* =============== ISOTOP =============== */	
 	$(window).load(function(){
-		$portfolio = $('.nino-portfolioItems');
+		$portfolio = $('.workshop-portfolioItems');
 		$portfolio.isotope({
 			itemSelector : 'li',
 			layoutMode : 'masonry'
@@ -47,13 +47,13 @@ jQuery(function($) {
 	});
 	
 	/* =============== PORTFOLIO HOVER EFFECT =============== */
-	$('.nino-portfolioItems > li').each( function() { $(this).hoverdir(); } );
+	$('.workshop-portfolioItems > li').each( function() { $(this).hoverdir(); } );
 	
 	/* =============== PERTTYPHOTO =============== */
-	$("a.nino-prettyPhoto").prettyPhoto();
+	$("a.workshop-prettyPhoto").prettyPhoto();
 	
 	/* =============== SMOOTH SCROOL EFFECT =============== */
-	$('#nino-navbar ul li a').on('click',function (e) {
+	$('#workshop-navbar ul li a').on('click',function (e) {
 	    e.preventDefault();
 	    var target = this.hash,
 	    $target = $(target);
@@ -69,13 +69,13 @@ jQuery(function($) {
 	/* Check to see if the window is top if not then display go top button */
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 200) {
-			$('#nino-scrollToTop').fadeIn();
+			$('#workshop-scrollToTop').fadeIn();
 		} else {
-			$('#nino-scrollToTop').fadeOut();
+			$('#workshop-scrollToTop').fadeOut();
 		}
 	});
 	/* Click event to scroll to top */
-	$('#nino-scrollToTop').click(function(){
+	$('#workshop-scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});

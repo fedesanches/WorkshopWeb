@@ -1,9 +1,3 @@
-/**
-* @author    Ninodezign.com http://www.ninodezign.com
-* @copyright Copyright (C) 2016 Ninodezign.com. All rights reserved.
-* @license   Ninodezign.com Proprietary License
-*/
-/* ============================== DEFAULT HTML ============================== */
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
 @import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
@@ -151,7 +145,7 @@ img.img-full-width {
 	-webkit-box-align: center;
 	align-items: center;
 }
-.nino-btn {
+.workshop-btn {
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
@@ -161,21 +155,21 @@ img.img-full-width {
 	font-size: 12px;
 	line-height: 100%;
 }
-.nino-btn:hover {
+.workshop-btn:hover {
 	color: #fff;
 }
 .bg-white {
 	background-color: #fff !important;
 }
 /* =============== HOVER EFFECT =============== */
-.nino-hoverEffect {
+.workshop-hoverEffect {
 	text-align: center;
 }
-.nino-hoverEffect .item {
+.workshop-hoverEffect .item {
 	background: rgba(63,185,189,0.9);
 	display: inline-block;
 }
-.nino-hoverEffect .item .overlay {
+.workshop-hoverEffect .item .overlay {
 	display: block;
 	position: relative;
 	left: 0;
@@ -186,7 +180,7 @@ img.img-full-width {
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
 }
-.nino-hoverEffect .item .overlay:before {
+.workshop-hoverEffect .item .overlay:before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -204,14 +198,14 @@ img.img-full-width {
 	background: -o-linear-gradient(top, rgba(53,34,69,0.9), rgba(252, 227, 138, 0.9));
 	background: linear-gradient(to bottom, rgba(53,34,69,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.nino-hoverEffect .item:hover .overlay {
+.workshop-hoverEffect .item:hover .overlay {
 	left: -10px;
 	top: -10px;
 }
-.nino-hoverEffect .item:hover .overlay:before {
+.workshop-hoverEffect .item:hover .overlay:before {
 	opacity: 1;	
 }
-.nino-hoverEffect .content {
+.workshop-hoverEffect .content {
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -227,17 +221,17 @@ img.img-full-width {
 		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
 }
-.nino-hoverEffect .item:hover .content {
+.workshop-hoverEffect .item:hover .content {
 	opacity: 1;
 }
 /* =============== LAYOUT - HEADER AREA =============== */
-#nino-header {
+#workshop-header {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	background: url(../images/Frente-Facultad.jpg) no-repeat center center / cover;
     padding-bottom: 100px;	
 }
-#nino-header:after {
+#workshop-header:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -248,30 +242,30 @@ img.img-full-width {
 	background: -o-linear-gradient(top, rgba(255,0,0,0), rgba(255, 198, 90, 0.9));
 	background: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 198, 90, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#nino-headerInner {
+#workshop-headerInner {
 	position: relative;
 	z-index: 5;
 }
 /* =============== MAIN SLIDER =============== */
-#nino-slider {
+#workshop-slider {
 	padding: 40px 0 0;
 }
-#nino-slider .carousel-inner {
+#workshop-slider .carousel-inner {
 	height: 386px;
 }
-#nino-slider .carousel-inner > .item {
+#workshop-slider .carousel-inner > .item {
 	text-align: center;
 	color: #fff;
 }
-#nino-slider .carousel-indicators {
+#workshop-slider .carousel-indicators {
 	width: 100%;
 	left: 0;
 	margin: 0;
 	position: static;
 	margin-top: 80px;
 }
-#nino-slider .carousel-indicators li,
-#nino-slider .carousel-indicators li.active {
+#workshop-slider .carousel-indicators li,
+#workshop-slider .carousel-indicators li.active {
 	float: left;
 	width: 25%;
 	height: auto;
@@ -282,7 +276,7 @@ img.img-full-width {
 	text-align: left;
 	border: none;
 }
-#nino-slider .carousel-indicators li .inner {
+#workshop-slider .carousel-indicators li .inner {
 	border-top: 2px solid #f7eac4;
 	position: relative;
 	color: #faf3e0;
@@ -290,13 +284,13 @@ img.img-full-width {
 	margin: 0 12px;
 	padding: 10px 0;
 }
-#nino-slider .carousel-indicators li:hover .inner,
-#nino-slider .carousel-indicators li.active .inner {
+#workshop-slider .carousel-indicators li:hover .inner,
+#workshop-slider .carousel-indicators li.active .inner {
 	border-color: #fff;
 	color: #fff;
 }
-#nino-slider .carousel-indicators li:hover .inner:after,
-#nino-slider .carousel-indicators li.active .inner:after {
+#workshop-slider .carousel-indicators li:hover .inner:after,
+#workshop-slider .carousel-indicators li.active .inner:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -305,23 +299,23 @@ img.img-full-width {
 	height: 2px;
 	background: rgba(53,34,69,0.9);
 }
-#nino-slider .carousel-indicators li .number {
+#workshop-slider .carousel-indicators li .number {
 	font-weight: 700;
 	font-size: 18px;
 	margin-right: 3px;
 }
 /* =============== LAYOUT - MENU AREA =============== */
-#nino-navbar {
+#workshop-navbar {
 	background: none;
 	border: none;
 	border-radius: 0;
 }
-#nino-navbar .navbar-brand {
+#workshop-navbar .navbar-brand {
 	color: #fff;
 	font-weight: 700;
 	font-size: 20px;
 }
-#nino-navbar .navbar-nav > li > a {
+#workshop-navbar .navbar-nav > li > a {
 	color: #fff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -329,33 +323,33 @@ img.img-full-width {
 	padding: 15px 5px 5px;
 	margin: 0 12px;
 }
-#nino-navbar .navbar-nav > li > a:hover,
-#nino-navbar .navbar-nav > .active > a, 
-#nino-navbar .navbar-nav > .active > a:hover {
+#workshop-navbar .navbar-nav > li > a:hover,
+#workshop-navbar .navbar-nav > .active > a, 
+#workshop-navbar .navbar-nav > .active > a:hover {
 	color: #fce38a;
 	border-color: #fce38a;
 	background: none;
 }
-#nino-navbar .nino-menuItem {
+#workshop-navbar .workshop-menuItem {
 	float: right;
 }
-#nino-navbar .nino-iconsGroup li a {
+#workshop-navbar .workshop-iconsGroup li a {
 	border: none;
 	font-size: 18px;
 }
-#nino-navbar .navbar-toggle {
+#workshop-navbar .navbar-toggle {
 	margin-right: 0;
 	border: none;
 }
-#nino-navbar .navbar-toggle:hover,
-#nino-navbar .navbar-toggle:focus {
+#workshop-navbar .navbar-toggle:hover,
+#workshop-navbar .navbar-toggle:focus {
 	background: none;
 }
-#nino-navbar .navbar-toggle .icon-bar {
+#workshop-navbar .navbar-toggle .icon-bar {
 	background: #fff;
 }
 /* ----------- FIXED NAVBAR WITH ANIMATE ----------- */
-.nino-fixed-nav #nino-navbar {
+.workshop-fixed-nav #workshop-navbar {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -369,7 +363,7 @@ img.img-full-width {
     -webkit-animation-name: fadeInDown;
     		animation-name: fadeInDown;
 }
-.nino-fixed-nav #nino-navbar .navbar-nav > li > a {
+.workshop-fixed-nav #workshop-navbar .navbar-nav > li > a {
 	border: none;
 }
 @-webkit-keyframes fadeInDown {
@@ -400,17 +394,17 @@ img.img-full-width {
 section {
 	padding: 80px 0;
 }
-#nino-slider .nino-sectionHeading {
+#workshop-slider .workshop-sectionHeading {
 	font-size: 90px;
 	color: #fff;
 }
-#nino-slider .nino-sectionHeading .nino-subHeading {
+#workshop-slider .workshop-sectionHeading .workshop-subHeading {
 	font-size: 55px;
 }
-#nino-slider .nino-sectionHeading:after {
+#workshop-slider .workshop-sectionHeading:after {
 	background:transparent;
 }
-.nino-sectionHeading {
+.workshop-sectionHeading {
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 1;
@@ -420,7 +414,7 @@ section {
 	text-align: center;
 	color: #333;
 }
-.nino-sectionHeading:after {
+.workshop-sectionHeading:after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -430,7 +424,7 @@ section {
 	background: rgba(53,34,69,0.9);
 	transform: translateX(-50%);
 }
-.nino-sectionHeading .nino-subHeading {
+.workshop-sectionHeading .workshop-subHeading {
 	display: block;
 	text-transform: none;
 	font-weight: 400;
@@ -438,22 +432,22 @@ section {
 	font-size: 20px;
 	margin-bottom: 20px;
 }
-.nino-sectionDesc {
+.workshop-sectionDesc {
 	text-align: center;
 	max-width: 750px;
 	margin: 0 auto 40px;
 }
 /* =============== SECTION EDICIONES ANTERIORES =============== */
-#nino-ea .content {
+#workshop-ea .content {
 	font-weight: 700;
 	font-size: 14px;
 }
-#nino-ea .content .nino-icon {
+#workshop-ea .content .workshop-icon {
 	display: block;
 	font-size: 30px;
 }
 /* =============== SECTION CONTADORES =============== */
-#nino-counting {
+#workshop-counting {
 	padding: 0;
 	background: rgba(63,185,189,0.9);
 	font-family: 'Montserrat', sans-serif;
@@ -462,49 +456,49 @@ section {
 	text-transform: uppercase;
 	font-size: 14px;
 }
-#nino-counting .item {
+#workshop-counting .item {
 	width: -webkit-fill-available;
 	padding: 60px 5px;
 	border-right: 1px solid rgba(255, 255, 255, 0.35);
 }
-#nino-counting .item:first-child {
+#workshop-counting .item:first-child {
 	border-left: 1px solid rgba(255, 255, 255, 0.35);
 }
-#nino-counting .number {
+#workshop-counting .number {
 	font-size: 65px;
 	font-weight: 700;
 	line-height: 100%;
 	margin-bottom: 10px;
 }
 /* =============== SECTION VALORES =============== */
-#nino-valores .nino-icon {
+#workshop-valores .workshop-icon {
 	font-size: 30px;
 	margin-right: 20px;
 	color: rgba(63,185,189,0.9);
 }
-#nino-valores .item:not(:nth-last-child(-n+3)) {
+#workshop-valores .item:not(:nth-last-child(-n+3)) {
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 50px;
 	padding-bottom: 40px;
 }
-#nino-valores .nino-valoresTitle {
+#workshop-valores .workshop-valoresTitle {
 	font-weight: 500;
 	font-size: 14px;
 }
 /* =============== SECTION APP =============== */
-#nino-appws {
+#workshop-appws {
 	padding-bottom: 0;
 	margin-bottom: 30px;
 	background: #e0e0e0 url(../images/appws/bg-unique-design.jpg) no-repeat center center / cover;
 }
-#nino-appws .nino-devices {
+#workshop-appws .workshop-devices {
 	position: relative;
 	text-align: center;
 }
-#nino-appws .nino-devices .tablet {
+#workshop-appws .workshop-devices .tablet {
 	width: 380px;
 }
-#nino-appws .nino-devices .mobile {
+#workshop-appws .workshop-devices .mobile {
 	position: absolute;
 	bottom: -60px;
 	left: 50%;
@@ -512,11 +506,11 @@ section {
 	width: 170px;
 }
 /* =============== SECTION TESTIMONIOS =============== */
-.nino-testimonial {
+.workshop-testimonial {
 	background: #f8f8f8;
 	padding: 60px 0;
 }
-.nino-testimonial .unslider-arrow {
+.workshop-testimonial .unslider-arrow {
 	font-size: 40px;
 	color: #ccc;
 	top: 50%;
@@ -526,31 +520,31 @@ section {
 		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
 }
-.nino-testimonialSlider {
+.workshop-testimonialSlider {
 	margin: 0 80px;
 }
-.nino-testimonialSlider .nino-symbol {
+.workshop-testimonialSlider .workshop-symbol {
 	margin: 0 35px 0 5px;
 }
-.nino-testimonialSlider .nino-symbol .nino-icon {
+.workshop-testimonialSlider .workshop-symbol .workshop-icon {
 	padding: 16px;
 	border: 2px solid rgba(63,185,189,0.9);
 	font-size: 65px;
 	color: rgba(63,185,189,0.9);
 }
-.nino-testimonialSlider .quote {
+.workshop-testimonialSlider .quote {
 	font-size: 18px;
 	font-weight: 300;
 	font-style: italic;
 	margin-bottom: 10px;
 }
-.nino-testimonialSlider .name {
+.workshop-testimonialSlider .name {
     font-family: 'Kaushan Script', cursive;
     font-size: 18px;
     position: relative;
     padding-left: 50px;
 }
-.nino-testimonialSlider .name:after {
+.workshop-testimonialSlider .name:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -566,30 +560,30 @@ section {
 }
 
 /* =============== SECTION PORTFOLIO =============== */
-#nino-portfolio {
+#workshop-portfolio {
 	padding-bottom: 0;
 }
-#nino-portfolio .nino-portfolioItems {
+#workshop-portfolio .workshop-portfolioItems {
 	position: relative;
 	margin: 0;
 	padding: 0;
 }
-#nino-portfolio .nino-portfolioItems li {
+#workshop-portfolio .workshop-portfolioItems li {
 	float: left;
 	width: 25%;
 	background: #fff;
 	position: relative;
 }
-#nino-portfolio .nino-portfolioItems li a,
-#nino-portfolio .nino-portfolioItems li a img {
+#workshop-portfolio .workshop-portfolioItems li a,
+#workshop-portfolio .workshop-portfolioItems li a img {
 	display: block;
 	position: relative;
 }
-#nino-portfolio .nino-portfolioItems li a {
+#workshop-portfolio .workshop-portfolioItems li a {
 	overflow: hidden;
 	color: #fff;
 }
-#nino-portfolio .nino-portfolioItems li .overlay {
+#workshop-portfolio .workshop-portfolioItems li .overlay {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -599,7 +593,7 @@ section {
 	background: -o-linear-gradient(top, rgba(53,34,69,0.9), rgba(252, 227, 138, 0.9));
 	background: linear-gradient(to bottom, rgba(53,34,69,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#nino-portfolio .nino-portfolioItems li .content {
+#workshop-portfolio .workshop-portfolioItems li .content {
 	position: absolute;
 	left: 0 !important;
 	top: 50% !important;
@@ -610,20 +604,20 @@ section {
 		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
 }
-#nino-portfolio .nino-portfolioItems li .nino-icon {
+#workshop-portfolio .workshop-portfolioItems li .workshop-icon {
 	font-size: 30px;
 }
-#nino-portfolio .nino-portfolioItems li .title {
+#workshop-portfolio .workshop-portfolioItems li .title {
 	color: #fff;
 	font-size: 14px;
 	margin: 5px 0 5px;
 }
-#nino-portfolio .nino-portfolioItems li .desc {
+#workshop-portfolio .workshop-portfolioItems li .desc {
 	font-style: italic;
 	font-size: 12px;
 }
 /* =============== SECTION OUR TEAM =============== */
-#nino-ourTeam .content .nino-icon {
+#workshop-ourTeam .content .workshop-icon {
 	display: inline-block;
 	font-size: 25px;
 	color: rgba(53,34,69,0.9);
@@ -632,28 +626,28 @@ section {
 	margin: 0 -1px;
 	line-height: 100%;
 }
-#nino-ourTeam .content .nino-icon:hover {
+#workshop-ourTeam .content .workshop-icon:hover {
 	color: #fff;
 	background: rgba(53,34,69,0.9);
 }
-#nino-ourTeam .info {
+#workshop-ourTeam .info {
 	margin-top: 35px;
 	text-align: center;
 }
-#nino-ourTeam .name {
+#workshop-ourTeam .name {
 	font-size: 14px;
 	margin: 0 0 5px;
 }
-#nino-ourTeam .regency {
+#workshop-ourTeam .regency {
 	font-style: italic;
 }
 
 /* =============== SECTION ULTIMAS NOTICIAS =============== */
-#nino-ultimasnoticias article .articleThumb {
+#workshop-ultimasnoticias article .articleThumb {
 	position: relative;
 	margin-bottom: 20px;
 }
-#nino-ultimasnoticias article .date {
+#workshop-ultimasnoticias article .date {
 	position: absolute;
 	background: rgba(63,185,189,0.9);
 	left: -10px;
@@ -662,74 +656,74 @@ section {
 	color: #fff;
 	text-align: center;
 }
-#nino-ultimasnoticias article .date .number {
+#workshop-ultimasnoticias article .date .number {
 	display: block;
 	font-size: 28px;
 	line-height: 100%;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 }
-#nino-ultimasnoticias article .date .text {
+#workshop-ultimasnoticias article .date .text {
 	display: block;
 	font-weight: 300;
 	font-style: italic;
 }
-#nino-ultimasnoticias article .articleTitle {
+#workshop-ultimasnoticias article .articleTitle {
 	font-size: 14px;
 }
-#nino-ultimasnoticias article .articleMeta {
+#workshop-ultimasnoticias article .articleMeta {
 	border-top: 1px solid #e5e5e5;
 	margin-top: 15px;
 	padding-top: 15px;
 }
-#nino-ultimasnoticias article .articleMeta a {
+#workshop-ultimasnoticias article .articleMeta a {
 	color: #999;
 	display: inline-block;
 	margin-right: 15px;
 	font-style: italic;
 	font-weight: 300;
 }
-#nino-ultimasnoticias article .articleMeta a:hover {
+#workshop-ultimasnoticias article .articleMeta a:hover {
 	color: #000;
 }
-#nino-ultimasnoticias article .articleMeta .nino-icon {
+#workshop-ultimasnoticias article .articleMeta .workshop-icon {
 	color: rgba(63,185,189,0.9);
 	font-size: 17px;
 	position: relative;
 	top: 2px;
 }
 /* =============== SECTION MAP =============== */
-#nino-map {
+#workshop-map {
 	padding: 40px 0;
 	background: url(../images/map/bg-map.jpg) no-repeat center center / cover;
 }
-#nino-map .nino-sectionHeading {
+#workshop-map .workshop-sectionHeading {
 	color: #f28989;
 	margin: 0;
 	cursor: pointer;
 }
-#nino-map .nino-sectionHeading .nino-icon {
+#workshop-map .workshop-sectionHeading .workshop-icon {
 	display: block;
 	margin-bottom: 10px;
 	font-size: 40px;
 }
-#nino-map .mapWrap {
+#workshop-map .mapWrap {
 	visibility: hidden;
 	opacity: 0;
 	height: 0 !important;
 	margin-top: 20px;
 }
-#nino-map .mapWrap iframe {
+#workshop-map .mapWrap iframe {
 	width: 100%;
 	height: 300px;
 }
-#nino-map.showMap .mapWrap {
+#workshop-map.showMap .mapWrap {
 	visibility: visible;
 	opacity: 1;
 	height: auto !important;
 	border: 2px solid #ff9c00;
 }
-#nino-map .nino-locationInfo {
+#workshop-map .workshop-locationInfo {
 	width: 250px;
 }
 /* =============== LAYOUT - FOOTER AREA =============== */
@@ -737,13 +731,13 @@ footer {
 	background: #f8f8f8;
 }
 /* ----------- COPYRIGHT ----------- */
-footer .nino-copyright {
+footer .workshop-copyright {
 	text-align: center;
 	border-top: 1px solid #e5e5e5;
 	padding: 20px 0;
 }
 /* =============== GO TO TOP =============== */
-#nino-scrollToTop {
+#workshop-scrollToTop {
 	width: 50px; 
 	height: 50px;
 	text-align: center;
@@ -757,7 +751,7 @@ footer .nino-copyright {
 	z-index: 2;
 	background: rgba(53,34,69,0.9) url(../images/go-to-top.png) center center no-repeat;
 }
-#nino-scrollToTop:hover {
+#workshop-scrollToTop:hover {
 	text-decoration: none;
 	background-color: #ffc75a;
 }
@@ -779,7 +773,7 @@ div.pp_default .pp_social {
 @media (max-width: 1200px) {
 
 	/* =============== FOOTER =============== */
-	footer .nino-followUs {
+	footer .workshop-followUs {
 		margin: 15px 0;
 	}
 	footer .instagramImages a {
@@ -792,59 +786,59 @@ div.pp_default .pp_social {
 		padding: 45px 0;
 	}	
 	/* =============== SECTION TESTIMONIOS =============== */
-	.nino-testimonial {
+	.workshop-testimonial {
 		padding: 30px 0;
 	}
-	.nino-testimonialSlider .quote {
+	.workshop-testimonialSlider .quote {
 		font-size: 13px;
 	}
-	.nino-testimonialSlider .nino-avatar {
+	.workshop-testimonialSlider .workshop-avatar {
 		width: 130px;
 	}
 	/* =============== SECTION COUNTING =============== */
-	#nino-counting {
+	#workshop-counting {
 		font-size: 10px;
 	}
-	#nino-counting .item {
+	#workshop-counting .item {
 		padding: 35px 5px;
 	}
-	#nino-counting .number {
+	#workshop-counting .number {
 		font-size: 50px;
 	}
 	/* =============== SECTION VALORES =============== */
-	#nino-valores .item:not(:nth-last-child(-n+2)) {
+	#workshop-valores .item:not(:nth-last-child(-n+2)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 30px;
     	padding-bottom: 20px;
 	}
 	/* =============== SECTION UNIQUE DESIGN =============== */
-	#nino-appws .nino-devices .tablet {
+	#workshop-appws .workshop-devices .tablet {
 		width: 250px;
 	}
-	#nino-appws .nino-devices .mobile {
+	#workshop-appws .workshop-devices .mobile {
 		bottom: -38px;
 		margin-left: 88px;
 		width: 110px;
 	}
 	/* =============== SECTION OUR TEAM =============== */
-	#nino-ourTeam .content .nino-icon {
+	#workshop-ourTeam .content .workshop-icon {
 		font-size: 18px;
 		padding: 8px;
 	}
-	#nino-ourTeam .info {
+	#workshop-ourTeam .info {
 		margin-top: 25px;
 	}
 	/* =============== SECTION ULTIMAS NOTICIAS =============== */
-	#nino-ultimasnoticias article .articleTitle {
+	#workshop-ultimasnoticias article .articleTitle {
 		font-size: 11px;
 	}
-	#nino-ultimasnoticias article .date {
+	#workshop-ultimasnoticias article .date {
 		padding: 8px 12px;
 	}
-	#nino-ultimasnoticias article .date .number {
+	#workshop-ultimasnoticias article .date .number {
 		font-size: 18px;
 	}
-	#nino-ultimasnoticias article .date .text {
+	#workshop-ultimasnoticias article .date .text {
 		font-size: 11px;
 	}
 
@@ -853,42 +847,42 @@ div.pp_default .pp_social {
 @media (max-width: 768px) {
 	
 	/* =============== HOVER EFFECT =============== */
-	.nino-hoverEffect .item {
+	.workshop-hoverEffect .item {
 		margin-bottom: 15px;
 	}
 	/* =============== MAIN SLIDER =============== */
-	#nino-slider {
+	#workshop-slider {
 		padding-top: 10px;
 	}
-	#nino-slider .carousel-inner {
+	#workshop-slider .carousel-inner {
 		height: 270px;
 	}
-	#nino-slider .carousel-indicators {
+	#workshop-slider .carousel-indicators {
 		margin-top: 30px;
 	}
-	#nino-slider .nino-sectionHeading {
+	#workshop-slider .workshop-sectionHeading {
 		font-size: 60px;
 	}
-	#nino-slider .nino-sectionHeading .nino-subHeading {
+	#workshop-slider .workshop-sectionHeading .workshop-subHeading {
 	    font-size: 35px;
 	}
 	/* =============== SECTION APP =============== */
-	#nino-appws .nino-devices .mobile {
+	#workshop-appws .workshop-devices .mobile {
 		margin-left: 65px;
 	}
 	/* =============== SECTION OUR TEAM =============== */
-	#nino-ourTeam .info {
+	#workshop-ourTeam .info {
 		margin: 0 0 20px;
 	}
 	/* =============== SECTION OUR WORK =============== */
-	#nino-portfolio .nino-portfolioItems li {
+	#workshop-portfolio .workshop-portfolioItems li {
 		width: 50%;
 	}
 	/* =============== SECTION ULTIMAS NOTICIAS =============== */
-	#nino-ultimasnoticias {
+	#workshop-ultimasnoticias {
 		text-align: center;
 	}
-	#nino-ultimasnoticias article {
+	#workshop-ultimasnoticias article {
 		display: inline-block;
 		max-width: 380px;
 		margin-bottom: 30px;
@@ -899,46 +893,46 @@ div.pp_default .pp_social {
 @media (max-width: 767px) {
 	
 	/* =============== MENU AREA =============== */
-	#nino-navbar {
+	#workshop-navbar {
 		background: #362245;
 	}
-	#nino-navbar .navbar-header {
+	#workshop-navbar .navbar-header {
 		padding-right: 80px;
 	}
-	#nino-navbar .navbar-nav > li > a {
+	#workshop-navbar .navbar-nav > li > a {
 		padding: 10px 5px 5px;
 	}
-	#nino-navbar .navbar-nav > li > a:hover, 
-	#nino-navbar .navbar-nav > .active > a, 
-	#nino-navbar .navbar-nav > .active > a:hover {
+	#workshop-navbar .navbar-nav > li > a:hover, 
+	#workshop-navbar .navbar-nav > .active > a, 
+	#workshop-navbar .navbar-nav > .active > a:hover {
 		border-color: transparent;
 	}
-	#nino-navbar .nino-menuItem,
-	#nino-navbar .navbar-collapse {
+	#workshop-navbar .workshop-menuItem,
+	#workshop-navbar .navbar-collapse {
 		width: 100%;
 	}
-	#nino-navbar .navbar-collapse {
+	#workshop-navbar .navbar-collapse {
 		background: rgba(56,56,56,0.95);
 		border-color: #464646;
 		position: absolute;
 		z-index: 1;
 		left: 0px;
 	}
-	#nino-navbar .nino-iconsGroup {
+	#workshop-navbar .workshop-iconsGroup {
 		position: absolute;
 		right: 15px;
 		top: 0;
 		margin: 0;
 	}
-	#nino-navbar .nino-iconsGroup > li {
+	#workshop-navbar .workshop-iconsGroup > li {
 		display: inline-block;
 	}
-	#nino-navbar .nino-iconsGroup li a {
+	#workshop-navbar .workshop-iconsGroup li a {
 		margin: 0 0 0 15px;
 		padding: 15px 0 5px;
 	}
 	/* =============== SECTION VALORES =============== */
-	#nino-valores .item:not(:nth-last-child(-n+1)) {
+	#workshop-valores .item:not(:nth-last-child(-n+1)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 20px;
 		padding-bottom: 10px;
@@ -949,64 +943,64 @@ div.pp_default .pp_social {
 	section {
 		padding: 30px 0;
 	}
-	.nino-sectionHeading {
+	.workshop-sectionHeading {
 		font-size: 20px;
 		margin-bottom: 20px;
 	}
-	.nino-sectionHeading .nino-subHeading {
+	.workshop-sectionHeading .workshop-subHeading {
 		font-size: 16px;
 		margin-bottom: 10px;
 	}
-	.nino-sectionDesc {
+	.workshop-sectionDesc {
 		margin-bottom: 20px;
 	}
 	/* =============== MAIN SLIDER =============== */
-	#nino-slider .nino-sectionHeading {
+	#workshop-slider .workshop-sectionHeading {
 		font-size: 45px;
 	}
-	#nino-slider .nino-sectionHeading .nino-subHeading {
+	#workshop-slider .workshop-sectionHeading .workshop-subHeading {
 		font-size: 22px;
 	}
-	#nino-slider .carousel-inner {
+	#workshop-slider .carousel-inner {
 		height: 205px;
 	}
-	#nino-slider .carousel-indicators li .number {
+	#workshop-slider .carousel-indicators li .number {
 		display: none;
 	}
 	/* =============== SECTION COUNTING =============== */
-	#nino-counting .item {
+	#workshop-counting .item {
 		padding: 20px 5px;
 	}
-	#nino-counting .number {
+	#workshop-counting .number {
 		font-size: 28px;
 	}
-	#nino-counting .text {
+	#workshop-counting .text {
 		font-size: 9px;
 	}
 	/* =============== SECTION APP =============== */
-	#nino-appws .nino-devices .mobile {
+	#workshop-appws .workshop-devices .mobile {
 		margin-left: 65px;
 	}
 	/* =============== SECTION TESTIMONIAL =============== */
-	.nino-testimonialSlider {
+	.workshop-testimonialSlider {
 		margin: 0 40px;
 	}
-	.nino-testimonialSlider .nino-symbol {
+	.workshop-testimonialSlider .workshop-symbol {
 		font-size: 45px;
 		margin: 0 15px 0 5px;
 	}
-	.nino-testimonialSlider .quote {
+	.workshop-testimonialSlider .quote {
 		font-size: 11px;
 	}
-	.nino-testimonialSlider .name {
+	.workshop-testimonialSlider .name {
 		font-size: 13px;
 	}
-	.nino-testimonialSlider .nino-avatar {
+	.workshop-testimonialSlider .workshop-avatar {
 		width: 100px;
 		margin-right: 15px;
 	}
 	/* =============== SECTION APP =============== */
-	#nino-appws .nino-devices .mobile {
+	#workshop-appws .workshop-devices .mobile {
 		margin-left: 50px;
 		width: 90px;
 	}
@@ -1020,24 +1014,24 @@ div.pp_default .pp_social {
 @media (max-width: 480px) {
 	
 	/* =============== MAIN SLIDER =============== */
-	#nino-slider .carousel-indicators li .inner {
+	#workshop-slider .carousel-indicators li .inner {
 		text-indent: -99999em;
 		line-height: 0;
 		border-width: 3px;
 	}
-	#nino-slider .carousel-indicators .inner:after {
+	#workshop-slider .carousel-indicators .inner:after {
 		display: none;
 	}
-	#nino-slider .carousel-indicators li.active .inner {
+	#workshop-slider .carousel-indicators li.active .inner {
 		border-color: rgba(53,34,69,0.9);
 	}
 	/* =============== SECTION TESTIMONIAL =============== */
-	.nino-testimonialSlider .nino-symbol,
-	.nino-testimonialSlider .nino-avatar {
+	.workshop-testimonialSlider .workshop-symbol,
+	.workshop-testimonialSlider .workshop-avatar {
 		display: none;
 	}
 	/* =============== SECTION OUR WORK =============== */
-	#nino-portfolio .nino-portfolioItems li {
+	#workshop-portfolio .workshop-portfolioItems li {
 		width: 100%;
 	}
 }

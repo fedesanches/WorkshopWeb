@@ -471,17 +471,17 @@ section {
 	margin-bottom: 10px;
 }
 /* =============== SECTION VALORES =============== */
-#workshop-valores .workshop-icon {
+#valores .workshop-icon {
 	font-size: 30px;
 	margin-right: 20px;
 	color: rgba(63,185,189,0.9);
 }
-#workshop-valores .item:not(:nth-last-child(-n+3)) {
+#valores .item:not(:nth-last-child(-n+3)) {
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 50px;
 	padding-bottom: 40px;
 }
-#workshop-valores .workshop-valoresTitle {
+#valores .valoresTitle {
 	font-weight: 500;
 	font-size: 14px;
 }
@@ -617,7 +617,7 @@ section {
 	font-size: 12px;
 }
 /* =============== SECTION OUR TEAM =============== */
-#workshop-ourTeam .content .workshop-icon {
+#inscripcion .content .workshop-icon {
 	display: inline-block;
 	font-size: 25px;
 	color: rgba(53,34,69,0.9);
@@ -626,19 +626,19 @@ section {
 	margin: 0 -1px;
 	line-height: 100%;
 }
-#workshop-ourTeam .content .workshop-icon:hover {
+#inscripcion .content .workshop-icon:hover {
 	color: #fff;
 	background: rgba(53,34,69,0.9);
 }
-#workshop-ourTeam .info {
+#inscripcion .info {
 	margin-top: 35px;
 	text-align: center;
 }
-#workshop-ourTeam .name {
+#inscripcion .name {
 	font-size: 14px;
 	margin: 0 0 5px;
 }
-#workshop-ourTeam .regency {
+#inscripcion .regency {
 	font-style: italic;
 }
 
@@ -806,7 +806,7 @@ div.pp_default .pp_social {
 		font-size: 50px;
 	}
 	/* =============== SECTION VALORES =============== */
-	#workshop-valores .item:not(:nth-last-child(-n+2)) {
+	#valores .item:not(:nth-last-child(-n+2)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 30px;
     	padding-bottom: 20px;
@@ -821,11 +821,11 @@ div.pp_default .pp_social {
 		width: 110px;
 	}
 	/* =============== SECTION OUR TEAM =============== */
-	#workshop-ourTeam .content .workshop-icon {
+	#inscripcion .content .workshop-icon {
 		font-size: 18px;
 		padding: 8px;
 	}
-	#workshop-ourTeam .info {
+	#inscripcion .info {
 		margin-top: 25px;
 	}
 	/* =============== SECTION ULTIMAS NOTICIAS =============== */
@@ -871,7 +871,7 @@ div.pp_default .pp_social {
 		margin-left: 65px;
 	}
 	/* =============== SECTION OUR TEAM =============== */
-	#workshop-ourTeam .info {
+	#inscripcion .info {
 		margin: 0 0 20px;
 	}
 	/* =============== SECTION OUR WORK =============== */
@@ -932,7 +932,7 @@ div.pp_default .pp_social {
 		padding: 15px 0 5px;
 	}
 	/* =============== SECTION VALORES =============== */
-	#workshop-valores .item:not(:nth-last-child(-n+1)) {
+	#valores .item:not(:nth-last-child(-n+1)) {
 		border-bottom: 1px solid #e5e5e5;
 		margin-bottom: 20px;
 		padding-bottom: 10px;

@@ -20,10 +20,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,ma
 hr {
 	border-left: none;
 	border-right: none;
-    border-top: 1px solid #E5E5E5;
-    color: #F4F4F4;
-    margin: 20px 0;
-    padding: 0;
+    border-top: 1px solid rgba(53,34,69,0.9);;
+    color: rgba(53,34,69,0.9);;
+	width: 70%;
 }
 /* =============== DEFAULT HTML - LINK STYLES =============== */
 a {

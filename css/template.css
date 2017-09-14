@@ -24,6 +24,87 @@ hr {
     color: rgba(53,34,69,0.9);;
 	width: 70%;
 }
+
+/* =============== cronograma Accordion =============== */
+
+.panel-default>.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: #e4e5e7;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .panel-default>.panel-heading a {
+	display: block;
+	padding: 10px 15px;
+  }
+  
+  .panel-default>.panel-heading a:after {
+	content: "";
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	transition: transform .25s linear;
+	-webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"] {
+	background-color: #eee;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"]:after {
+	content: "\2212";
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+	content: "\002b";
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+  }
+  
+  .accordion-option {
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 15px 0;
+  }
+  
+  .accordion-option .title {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .accordion-option .toggle-accordion {
+	float: right;
+	font-size: 16px;
+	color: #6a6c6f;
+  }
+  
+  .accordion-option .toggle-accordion:before {
+	content: "Expand All";
+  }
+  
+  .accordion-option .toggle-accordion.active:before {
+	content: "Collapse All";
+  }
+/* =============== cronograma Accordion - END =============== */
+
 /* =============== DEFAULT HTML - LINK STYLES =============== */
 a {
 	text-decoration: none;
@@ -648,11 +729,11 @@ section {
 }
 
 /* =============== SECTION ULTIMAS NOTICIAS =============== */
-#workshop-ultimasnoticias article .articleThumb {
+#cronograma article .articleThumb {
 	position: relative;
 	margin-bottom: 20px;
 }
-#workshop-ultimasnoticias article .date {
+#cronograma article .date {
 	position: absolute;
 	background: rgba(63,185,189,0.9);
 	left: -10px;
@@ -661,37 +742,37 @@ section {
 	color: #fff;
 	text-align: center;
 }
-#workshop-ultimasnoticias article .date .number {
+#cronograma article .date .number {
 	display: block;
 	font-size: 28px;
 	line-height: 100%;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 }
-#workshop-ultimasnoticias article .date .text {
+#cronograma article .date .text {
 	display: block;
 	font-weight: 300;
 	font-style: italic;
 }
-#workshop-ultimasnoticias article .articleTitle {
+#cronograma article .articleTitle {
 	font-size: 14px;
 }
-#workshop-ultimasnoticias article .articleMeta {
+#cronograma article .articleMeta {
 	border-top: 1px solid #e5e5e5;
 	margin-top: 15px;
 	padding-top: 15px;
 }
-#workshop-ultimasnoticias article .articleMeta a {
+#cronograma article .articleMeta a {
 	color: #999;
 	display: inline-block;
 	margin-right: 15px;
 	font-style: italic;
 	font-weight: 300;
 }
-#workshop-ultimasnoticias article .articleMeta a:hover {
+#cronograma article .articleMeta a:hover {
 	color: #000;
 }
-#workshop-ultimasnoticias article .articleMeta .workshop-icon {
+#cronograma article .articleMeta .workshop-icon {
 	color: rgba(63,185,189,0.9);
 	font-size: 17px;
 	position: relative;
@@ -834,16 +915,16 @@ div.pp_default .pp_social {
 		margin-top: 25px;
 	}
 	/* =============== SECTION ULTIMAS NOTICIAS =============== */
-	#workshop-ultimasnoticias article .articleTitle {
+	#cronograma article .articleTitle {
 		font-size: 11px;
 	}
-	#workshop-ultimasnoticias article .date {
+	#cronograma article .date {
 		padding: 8px 12px;
 	}
-	#workshop-ultimasnoticias article .date .number {
+	#cronograma article .date .number {
 		font-size: 18px;
 	}
-	#workshop-ultimasnoticias article .date .text {
+	#cronograma article .date .text {
 		font-size: 11px;
 	}
 
@@ -884,10 +965,10 @@ div.pp_default .pp_social {
 		width: 50%;
 	}
 	/* =============== SECTION ULTIMAS NOTICIAS =============== */
-	#workshop-ultimasnoticias {
+	#cronograma {
 		text-align: center;
 	}
-	#workshop-ultimasnoticias article {
+	#cronograma article {
 		display: inline-block;
 		max-width: 380px;
 		margin-bottom: 30px;

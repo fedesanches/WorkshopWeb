@@ -504,6 +504,12 @@ section {
 	margin-left: 140px;
 	width: 170px;
 }
+
+/* =============== SECTION CONTACTO ==================*/
+#workshop-contacto {
+	padding-bottom: 10px;
+	background: rgb(255, 204, 102);
+}
 /* =============== SECTION TESTIMONIOS =============== */
 .workshop-testimonial {
 	background: #f8f8f8;
@@ -1033,4 +1039,25 @@ div.pp_default .pp_social {
 	#workshop-portfolio .workshop-portfolioItems li {
 		width: 100%;
 	}
+}
+
+/*==============BOTONES=============*/
+.btn-round-lg{
+	border-radius: 22.5px;
+	width: 150px;
+	border: none;
+	background: rgba(53,34,69,0.9);
+	text-transform: uppercase;
+}
+
+.btn-round{
+	border-radius: 17px;
+}
+
+.btn:hover{
+	background-color: rgba(53,34,69,0.9);
+}
+
+.btn:active{
+	background-color: rgba(53,34,69,0.9);
 }

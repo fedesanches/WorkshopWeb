@@ -48,6 +48,7 @@
 								<li><a href="#inscripcion">Inscripción</a></li>
 								<li><a href="#workshop-ea">Ediciones anteriores</a></li>
 								<li><a href="#workshop-ultimasnoticias">Noticias</a></li>
+								<li><a href="#workshop-contacto">Contacto</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div>
@@ -302,67 +303,50 @@
     	</div>
     </section><!--/#workshop-latestBlog-->
 
-
-	<div id="contact" class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h2 class="workshop-sectionHeading">Contacto</h2>
-                        <div class="line-dec"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="map">
-                        <img src="img/map.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                      <form id="contact" action="" method="post">
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
-                          </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
-                          </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                          <fieldset>
-                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                          </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                          <fieldset>
-                            <button type="submit" id="form-submit" class="btn">Send Message</button>
-                          </fieldset>
-                        </div>
-                      </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Map
+    <!-- Contacto
     ================================================== -->
-    <!--<section id="workshop-map">
-    	<div class="container">
-    		<h2 class="workshop-sectionHeading">
-    			<i class="mdi mdi-map-marker workshop-icon"></i>
-    			<span class="text">Open map</span>
-    			<span class="text" style="display: none;">Close map</span>
-    		</h2>
-    		<div class="mapWrap">
-	    		<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d79466.26604960626!2d-0.19779784176715043!3d51.50733004537892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!3m2!1d51.5073509!2d-0.1277583!5e0!3m2!1sen!2s!4v1469206441744" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-	    	</div>
-    	</div>
-    </section><!/#workshop-map-->
-	
+	<section id="workshop-contacto">
+        <div class="container">
+			<div class="section-heading">
+				<h2 class="workshop-sectionHeading">Contacto</h2>
+			</div>
+            <div class="row">
+                <div class="col-md-7">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.730942945422!2d-58.96455768433657!3d-34.17879608057175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb722bd263ff79%3A0x24d0268115af6719!2sUTN-FRD%2C+Universidad+Tecnol%C3%B3gica+Nacional+-+Facultad+Regional+Delta!5e0!3m2!1ses-419!2sar!4v1505339123569" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+					<div class="col-md-5">
+						<div class="row">
+							<form id="contact" action="" method="post">
+								<div class="col-md-6">
+								<fieldset>
+									<input name="name" type="text" class="form-control" id="name" placeholder="Nombre..." required>
+								</fieldset>
+								<br>
+								</div>
+								<div class="col-md-6">
+								<fieldset>
+									<input name="email" type="email" class="form-control" id="email" placeholder="Email..." required>
+								</fieldset>
+								<br>
+								</div>
+								<div class="col-md-12">
+								<fieldset>
+									<textarea name="message" rows="6" class="form-control" id="message" placeholder="Mensaje..." required></textarea>
+								</fieldset>
+								<br>
+								</div>
+								<div class="col-md-12">
+								<fieldset>
+									<button type="submit" id="form-submit" class="btn btn-primary btn-lg btn-round-lg">Enviar</button>
+								</fieldset>
+								<br>
+								</div>
+							</form>
+						</div>
+                </div>
+        </div>
+	</section>
+		
     <!-- Footer
     ================================================== -->
     <footer id="footer">
@@ -393,15 +377,26 @@
 	    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+	   (function(){emailjs.init("");})();
+	</script>
 
-	<!-- <form action="" class="workshop-subscribeForm">
-			<div class="input-group input-group-lg">
-				<input type="email" class="form-control" placeholder="Your Email" required>
-				<span class="input-group-btn">
-					<button class="btn btn-success" type="submit">Subscribe</button>
-				</span>
-			</div>
-		</form>-->
-		
+	<script>
+		$( "#form-submit" ).click(function() {
+			name = $("#name").val();
+			email = $("#email").val();
+			mensaje = $("#message").val()
+			if (name.length == 0 || email.length == 0 || mensaje.length == 0){
+			} else {
+			emailjs.send("gmail", "template_uXemXGR7", {
+			"reply_to":email,
+			"from_name":name,
+			"to_name":"Diego",
+			"message_html":mensaje})
+			}
+		});
+	</script>
+
 </body>
 </html>

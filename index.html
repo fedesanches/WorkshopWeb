@@ -327,7 +327,7 @@
 	</section><!--/#workshop-story-->
 
     <!-- APP
-    ================================================== -->
+    ==================================================
     <section id="workshop-appws">
     	<div class="container">
     		<h2 class="workshop-sectionHeading">
@@ -340,7 +340,7 @@
 				</div>
 			</div>
     	</div>
-	</section><!--/#workshop-uniqueDesign-->
+	</section>/#workshop-uniqueDesign-->
 
     <!-- Contacto
     ================================================== -->
@@ -439,9 +439,10 @@
 		$(document).ready(function() {
 
   $(".toggle-accordion").on("click", function() {
-    var accordionId = $(this).attr("accordion-id"),
-      numPanelOpen = $(accordionId + ' .collapse.in').length;
-    
+
+		var accordionId = $(this).attr("accordion-id");
+		numPanelOpen = $(accordionId + ' .collapse.in').length;
+    console.log("numPanelOpen: " + numPanelOpen);
     $(this).toggleClass("active");
 
     if (numPanelOpen == 0) {

@@ -97,11 +97,11 @@ hr {
   }
   
   .accordion-option .toggle-accordion:before {
-	content: "Expand All";
+	content: "";
   }
   
   .accordion-option .toggle-accordion.active:before {
-	content: "Collapse All";
+	content: "";
   }
 /* =============== cronograma Accordion - END =============== */
 

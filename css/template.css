@@ -14,7 +14,7 @@ body {
 	position: relative;
 	font-family: 'Roboto', sans-serif;
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main { 
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main {
     display: block;
 }
 hr {
@@ -37,12 +37,12 @@ hr {
 	-ms-user-select: none;
 	user-select: none;
   }
-  
+
   .panel-default>.panel-heading a {
 	display: block;
 	padding: 10px 15px;
   }
-  
+
   .panel-default>.panel-heading a:after {
 	content: "";
 	position: relative;
@@ -58,30 +58,30 @@ hr {
 	transition: transform .25s linear;
 	-webkit-transition: -webkit-transform .25s linear;
   }
-  
+
   .panel-default>.panel-heading a[aria-expanded="true"] {
 	background-color: #eee;
   }
-  
+
   .panel-default>.panel-heading a[aria-expanded="true"]:after {
 	content: "\2212";
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
   }
-  
+
   .panel-default>.panel-heading a[aria-expanded="false"]:after {
 	content: "\002b";
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
   }
-  
+
   .accordion-option {
 	width: 100%;
 	float: left;
 	clear: both;
 	margin: 15px 0;
   }
-  
+
   .accordion-option .title {
 	font-size: 20px;
 	font-weight: bold;
@@ -89,17 +89,17 @@ hr {
 	padding: 0;
 	margin: 0;
   }
-  
+
   .accordion-option .toggle-accordion {
 	float: right;
 	font-size: 16px;
 	color: #6a6c6f;
   }
-  
+
   .accordion-option .toggle-accordion:before {
 	content: "";
   }
-  
+
   .accordion-option .toggle-accordion.active:before {
 	content: "";
   }
@@ -267,7 +267,7 @@ img.img-full-width {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	opacity: 0;	
+	opacity: 0;
 	-webkit-transition: all .3s ease-in-out;
 	   -moz-transition: all .3s ease-in-out;
 		 -o-transition: all .3s ease-in-out;
@@ -283,7 +283,7 @@ img.img-full-width {
 	top: -10px;
 }
 .workshop-hoverEffect .item:hover .overlay:before {
-	opacity: 1;	
+	opacity: 1;
 }
 .workshop-hoverEffect .content {
 	position: absolute;
@@ -294,7 +294,7 @@ img.img-full-width {
 	opacity: 0;
 	text-align: center;
 	color: #fff;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 		 -o-transform: translateY(-50%);
@@ -309,7 +309,7 @@ img.img-full-width {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	background: url(../images/Frente-Facultad.jpg) no-repeat center center / cover;
-    padding-bottom: 100px;	
+    padding-bottom: 100px;
 }
 #workshop-header:after {
 	content: "";
@@ -349,7 +349,7 @@ img.img-full-width {
 	float: left;
 	width: 25%;
 	height: auto;
-	margin: 0;	
+	margin: 0;
 	text-indent: initial;
 	border-radius: 0;
 	background: none;
@@ -404,7 +404,7 @@ img.img-full-width {
 	margin: 0 12px;
 }
 #workshop-navbar .navbar-nav > li > a:hover,
-#workshop-navbar .navbar-nav > .active > a, 
+#workshop-navbar .navbar-nav > .active > a,
 #workshop-navbar .navbar-nav > .active > a:hover {
 	color: #fce38a;
 	border-color: #fce38a;
@@ -824,7 +824,7 @@ footer .workshop-copyright {
 }
 /* =============== GO TO TOP =============== */
 #workshop-scrollToTop {
-	width: 50px; 
+	width: 50px;
 	height: 50px;
 	text-align: center;
 	text-decoration: none;
@@ -870,7 +870,7 @@ div.pp_default .pp_social {
 @media (max-width: 992px) {
 	section {
 		padding: 45px 0;
-	}	
+	}
 	/* =============== SECTION TESTIMONIOS =============== */
 	.workshop-testimonial {
 		padding: 30px 0;
@@ -931,7 +931,7 @@ div.pp_default .pp_social {
 }
 
 @media (max-width: 768px) {
-	
+
 	/* =============== HOVER EFFECT =============== */
 	.workshop-hoverEffect .item {
 		margin-bottom: 15px;
@@ -977,7 +977,7 @@ div.pp_default .pp_social {
 }
 
 @media (max-width: 767px) {
-	
+
 	/* =============== MENU AREA =============== */
 	#workshop-navbar {
 		background: #362245;
@@ -988,8 +988,8 @@ div.pp_default .pp_social {
 	#workshop-navbar .navbar-nav > li > a {
 		padding: 10px 5px 5px;
 	}
-	#workshop-navbar .navbar-nav > li > a:hover, 
-	#workshop-navbar .navbar-nav > .active > a, 
+	#workshop-navbar .navbar-nav > li > a:hover,
+	#workshop-navbar .navbar-nav > .active > a,
 	#workshop-navbar .navbar-nav > .active > a:hover {
 		border-color: transparent;
 	}
@@ -1098,7 +1098,7 @@ div.pp_default .pp_social {
 }
 
 @media (max-width: 480px) {
-	
+
 	/* =============== MAIN SLIDER =============== */
 	#workshop-slider .carousel-indicators li .inner {
 		text-indent: -99999em;

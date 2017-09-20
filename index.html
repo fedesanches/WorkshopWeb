@@ -492,6 +492,7 @@
 
 	<!-- Ediciones anteriores
     ================================================== -->
+	<hr align="center">
 	<section id="workshop-ea">
 		<div class="container">
 			<h2 class="workshop-sectionHeading">Ediciones anteriores</h2>
@@ -607,7 +608,9 @@
 
 	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 	<script type="text/javascript">
-		(function () { emailjs.init(""); })();
+	   (function(){
+		  emailjs.init("user_Jh9fVOCmtfx8YoIkDr2ob");
+	   })();
 	</script>
 
 	<script>
@@ -617,10 +620,9 @@
 			mensaje = $("#message").val()
 			if (name.length == 0 || email.length == 0 || mensaje.length == 0) {
 			} else {
-				emailjs.send("gmail", "template_uXemXGR7", {
+				emailjs.send("gmail", "template_OjJRBt1k", {
 					"reply_to": email,
 					"from_name": name,
-					"to_name": "Diego",
 					"message_html": mensaje
 				})
 			}

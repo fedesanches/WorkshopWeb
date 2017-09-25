@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<title>Workshop | UTN FRD</title>
+	<title>III Workshop de Ingeniería en Sistemas de información</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/ico/icono-utn.png">
@@ -166,15 +166,11 @@
 		<div class="container">
 			<div layout="row" class="verticalStretch">
 				<div class="item">
-					<div class="number">16</div>
-					<div class="text">cronograma</div>
+					<div class="number">11</div>
+					<div class="text">Exposiciones</div>
 				</div>
 				<div class="item">
-					<div class="number">125</div>
-					<div class="text">Visitantes</div>
-				</div>
-				<div class="item">
-					<div class="number">4</div>
+					<div class="number">5</div>
 					<div class="text">Talleres</div>
 				</div>
 				<div class="item">
@@ -193,6 +189,7 @@
 			<h2 class="workshop-sectionHeading">
 				Cronograma
 			</h2>
+			<h4>Fecha: 6 de Octubre de 2017</h4>
 			<div class="container">
 				<div class="accordion-option">
 					<h3 class="title">Talleres</h3>
@@ -210,7 +207,8 @@
 						</div>
 						<div id="collapse-taller1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-taller1">
 							<div class="panel-body">
-								<p>Diego Colussi, Lucas Galetti, Federico Sanches y Martín Galeano, estudiantes avanzados de ingeniería en sistemas de información, junto al Ing. David Tua.</p>
+								<p>Diego Colussi, Lucas Galetti, Federico Sanches y Martín Galeano, estudiantes avanzados de ingeniería en sistemas
+									de información, junto al Ing. David Tua.</p>
 								El taller presentara como contenido teórico la siguiente temática: Una resumida descripción de la documentación de desarrollo
 								de videojuegos, un resumen teórico de los componentes presentes en el desarrollo, y una presentación general de la
 								herramienta a ser utilizada. Se propondrá que los alumnos desarrollen los tutoriales Numero 1 y Numero 2, expuestos
@@ -261,7 +259,7 @@
 						</div>
 						<div id="collapse-taller4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-taller4">
 							<div class="panel-body">
-								<p>Celia Cinta, Ingeniera en Informatica.</p>
+								<p>Celia Cintas, Ingeniera Informatica.</p>
 								En este taller veremos una gentil introducción al mundo de Deep Learning desde Python con la ayuda de Lasagne, Numpy, Pandas
 								y OpenCV de la mano de nuestras naves favoritas de Star Wars. Caminaremos por el pipeline, comenzando desde la adquisición
 								de datos, su preparación, construcción de ConvNets, entrenamiento y evaluación, con el fin de clasificar distintos
@@ -288,6 +286,9 @@
 						<div id="collapse-charla1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1-charla1">
 							<div class="panel-body">
 								<p>Bruno Sagaste y Bruno Fernandez, estudiantes de ingenieria en sistemas de información.</p>
+								Desarrollo del sistema utilizado en la biblioteca de la facultad. Experiencias y mejoras realizadas en el laboratorio de
+								sistemas (LSI). Partiendo de un sistema open source se realizaron multiples mejoras al sistema original y se agregaron
+								nuevas caracteristicas como por ejemplo el lector de RFID.
 							</div>
 						</div>
 					</div>
@@ -608,9 +609,9 @@
 
 	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 	<script type="text/javascript">
-	   (function(){
-		  emailjs.init("user_Jh9fVOCmtfx8YoIkDr2ob");
-	   })();
+		(function () {
+			emailjs.init("user_Jh9fVOCmtfx8YoIkDr2ob");
+		})();
 	</script>
 
 	<script>
@@ -625,32 +626,6 @@
 					"from_name": name,
 					"message_html": mensaje
 				})
-			}
-		});
-
-		$(document).ready(function () {
-
-			$(".toggle-accordion").on("click", function () {
-
-				var accordionId = $(this).attr("accordion-id");
-				numPanelOpen = $(accordionId + ' .collapse.in').length;
-				console.log("numPanelOpen: " + numPanelOpen);
-				$(this).toggleClass("active");
-
-				if (numPanelOpen == 0) {
-					openAllPanels(accordionId);
-				} else {
-					closeAllPanels(accordionId);
-				}
-			})
-
-			openAllPanels = function (aId) {
-				console.log("setAllPanelOpen");
-				$(aId + ' .panel-collapse:not(".in")').collapse('show');
-			}
-			closeAllPanels = function (aId) {
-				console.log("setAllPanelclose");
-				$(aId + ' .panel-collapse.in').collapse('hide');
 			}
 		});
 	</script>
